@@ -1,6 +1,3 @@
-Datum: 30. listopadu 2025
-Projekt: Paralelní Analyzátor Textových Souborů (Word Counter)
-Autor: [Vaše jméno, volitelně]
 
 =======================================================
 1. POPIS PROJEKTU A CÍL
