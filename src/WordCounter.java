@@ -27,7 +27,7 @@ public class WordCounter {
         try {
             producerThread.join();
             workerPool.shutdown();
-            workerPool.awaitTermination(30, TimeUnit.SECONDS); // Čekání na workery
+            workerPool.awaitTermination(30, TimeUnit.SECONDS);
             displayResults();
 
         } catch (InterruptedException e) {
