@@ -18,7 +18,7 @@ public class WordAnalyzer implements Runnable {
             while (true) {
                 String line = queue.take();
                 if (line.equals(poisonPill)) {
-                    queue.put(poisonPill);
+
                     break;
                 }
                 String[] words = line.toLowerCase().split("[\\p{Punct}\\s]+");
